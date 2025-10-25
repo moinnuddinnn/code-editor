@@ -14,7 +14,7 @@ export default function Editor() {
         automaticLayout: true,
         });
 
-    // Cleanup on unmount
+    //cleanup on unmount
         return () => {
         editor.dispose();
         };
@@ -22,4 +22,5 @@ export default function Editor() {
     }, []);
 
   return <div ref={editorRef} style={{ height: "100vh", width: "100%" }} />;
+
 }
