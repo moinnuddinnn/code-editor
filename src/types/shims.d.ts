@@ -1,4 +1,3 @@
-// types/shims.d.ts
 declare module "react" {
   const React: any;
   export default React;
@@ -32,5 +31,6 @@ declare global {
 
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
