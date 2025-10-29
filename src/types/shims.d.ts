@@ -4,7 +4,6 @@ declare module "react" {
   export function useEffect(effect: () => void | (() => void), deps?: any[]): void;
   export function useRef<T = any>(initial: T | null): { current: T | null };
 }
-
 declare module "react-dom/client" {
   export function createRoot(container: Element | DocumentFragment): {
     render(children: any): void;
@@ -31,6 +30,7 @@ declare global {
 
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
 
