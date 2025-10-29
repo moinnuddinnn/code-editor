@@ -24,9 +24,9 @@ declare global {
     }
   }
 }
-
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
 
