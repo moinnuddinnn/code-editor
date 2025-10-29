@@ -14,7 +14,6 @@ declare module "react/jsx-runtime" {
   export const jsxs: any;
   export const Fragment: any;
 }
-
 declare module "monaco-editor" {
   export const editor: any;
 }
@@ -29,6 +28,7 @@ declare global {
 
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
 
