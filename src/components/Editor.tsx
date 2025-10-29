@@ -1,6 +1,6 @@
 import * as monaco from "monaco-editor";
 import { useEffect, useRef } from "react";
-//import "../types/shims";
+
 
 export default function Editor() {
   const editorRef = useRef<HTMLDivElement>(null);
@@ -24,3 +24,4 @@ export default function Editor() {
   return <div ref={editorRef} style={{ height: "100vh", width: "100%" }} />;
 
 }
+
