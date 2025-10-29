@@ -24,8 +24,8 @@ declare global {
     }
   }
 }
-
 export {};
+
 
 
 
