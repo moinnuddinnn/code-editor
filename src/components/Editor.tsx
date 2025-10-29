@@ -1,8 +1,7 @@
 
 
 
-export default function Editor() {
-  const editorRef = useRef<HTMLDivElement>(null);
+
 
   useEffect(() => {
     if (editorRef.current) {
@@ -23,6 +22,7 @@ export default function Editor() {
   
 
 }
+
 
 
 
