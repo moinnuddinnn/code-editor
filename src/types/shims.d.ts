@@ -17,7 +17,6 @@ declare module "react/jsx-runtime" {
 declare module "monaco-editor" {
   export const editor: any;
 }
-
 declare global {
   namespace JSX {
     interface IntrinsicElements {
@@ -28,6 +27,7 @@ declare global {
 
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
 
