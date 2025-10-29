@@ -20,8 +20,9 @@ export default function Editor() {
     }
     }, []);
 
-  return <div ref={editorRef} style={{ height: "100vh", width: "100%" }} />;
+  
 
 }
+
 
 
