@@ -9,7 +9,6 @@ declare module "react-dom/client" {
     render(children: any): void;
   };
 }
-
 declare module "react/jsx-runtime" {
   export const jsx: any;
   export const jsxs: any;
@@ -30,6 +29,7 @@ declare global {
 
 // This empty export makes the file a module while keeping global declarations
 export {};
+
 
 
 
